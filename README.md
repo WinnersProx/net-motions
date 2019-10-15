@@ -1,27 +1,42 @@
-# NetMotions
+## NETMOTIONS APP - FRONTEND
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+ Netmotions is a platform where communities find best movies accross the world, You can rate and add some movies to your favorites one to support us.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Users can view all movies on the homepage.
+- Users can search movies containing some words.
+- Users can view a single movie with related details.
+- Users can view their favorite movies.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tools for Development
 
-## Build
+Tools used for development of this Application are:
+- Framework: [Angular](https://angular.io/)
+- Code Editor/IDE: [VSCode](https://code.visualstudio.com)
+- Programming language: [JavaScript(ES6)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/) ,[Typescript](https://www.typescriptlang.org/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## How should this be tested locally?
 
-## Running unit tests
+- Note that you need to primarily set up the tools for development as for the above section then go through all of the below steps sequentially.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the github repository [here](https://github.com/WinnersProx/net-motions), 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+4. Upon succesfull dependencies installation run this command in your command line interface and there you're!!! Open it in your browser following this link [here](http://localhost:4200)
+```sh
+    $ npm start
+```
 
-## Further help
+## Deployment
+- Heroku : (heroku_url)
+- Netlify : (netlify_url)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Learning resources
+- [Angular University](http://angular-university.io)
+- [Ionic](http://ionicframework.com)
+- [Pluralsight](http://app.pluralsight.com)
+
+## Key Contributor
+- Bihame Sikubwabo Vainqueur
