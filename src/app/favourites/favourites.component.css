@@ -1,0 +1,10 @@
+.movie-banner{
+	position: relative;
+}
+.movie-details{
+	position: absolute;
+  top: 40%;
+}
+.movie-title{
+	text-shadow : 1px 2px 2px #030502;
+}

@@ -1,0 +1,24 @@
+<div class="container">
+  	<div class="row py-4">
+  		<div class="col-md-4 pb-2" *ngFor="let movie of movies; index as i">
+  			<div class="card s-movie" title="Click to view details">
+  				<div class="movie-banner" (click)="viewDetails(i)">
+  					<img src="{{ movie.image.url }}" class="w-100 h-100">
+  					<div class="movie-details">
+	  					<div class="movie-header">
+					  		<div class="movie-title pl-2">
+		          		<h5 class="text-capitalize text-white text-center font-weight-bold">{{ movie.title }}</h5>
+		        		</div>
+				  		</div>
+				  		<div class="text-center">
+				  			<span class="text-light"><i class="fa fa-home"></i>{{ movie.rating }} rates</span>
+				  		</div>
+			  		</div>
+  				</div>
+  				<div class="movie-footer text-light bg-darker">
+		  			<span (click)="rateMovie(movie)" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Remove</span>
+		  		</div>
+			  </div>
+  		</div>
+  	</div>
+  </div>

@@ -1,0 +1,8 @@
+.movie-details{
+	position: relative;
+  border: none !important;
+}
+.target-movie-details{
+	position: absolute;
+	top: 0;
+}
